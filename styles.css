@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000033;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #cc0000;
+}
+
+#header{
+ display: flex;
+ justify-content: space-between;
+ padding: 25px 50px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+#navbar a{
+    padding: 10px 25px;
+}
+#navbar a:last-of-type{
+    background-color: #cc0000;
+    border-radius: 5px;
+}
+
+#navbar a:last-of-type:hover{
+    background-color: #ff9500;
+}
+
+/* Hero Section */
+
+#hero{
+    position: relative;
+    padding:0 0 100px 180px;
+}
+
+#hero>div{
+    width: 400px;
+}
+
+#hero h3{
+    color: #ff9500;
+    padding:120px 0 20px 0;
+}
+
+#hero p:nth-of-type(1){
+    font-size: 40px;
+    font-weight: 750;
+    line-height: 60px;
+}
+
+#hero p:nth-of-type(2){
+    padding: 30px 0 50px 0;
+    line-height: 30px;
+}
+
+#hero a{
+    padding: 15px 20px;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 132, 0));
+    border-radius: 70px;
+}
+
+#hero img{
+    position:absolute;
+}
+
+#hero img:first-of-type{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    left: 400px;
+    z-index: -1;
+}
+
+#hero img:nth-of-type(2){
+    top: 50px;
+    left: 700px;
+    width: 120px;
+}
+
+#hero img:nth-of-type(3){
+    left: 1000px;
+    width: 100px;
+}
+
+/* game list */
+
+#trends{
+    padding: 100px;
+}
+
+.trend{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.trend p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.trend a, #projects a{
+    padding: 14px 20px;
+    font-size: 18px;
+    background-color: #0e0e59e0;
+    border-radius: 10px;
+}
+
+.games{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.game img{
+    width: 230px;
+    height: 230px;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.game div{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+#callofduty{
+    padding: 0 100px 100px 150px;
+}
+
+#callofduty img{
+    width: 100%;
+    height: 400px;
+}
+
+#callofduty p:first-child,.shoot-game p:first-child, #projects p:first-child{
+    font-size: 33px;
+    padding: 10px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    line-height: 50px;
+}
+
+#callofduty p:nth-of-type(2){
+    font-size: 25px;
+    font-weight: 700;
+    padding: 100px 0 20px 0;
+}
+
+#callofduty p:nth-of-type(3), #projects p:nth-of-type(2){
+    width: 500px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+#shooting{
+    height: 1000px;
+}
+
+.shooters{
+    position: relative;
+    z-index: -1;
+}
+
+.shoot{
+    position: absolute;
+    
+}
+
+.shoot img{
+    width: 100%;
+}
+
+.shoot-game{
+    position: absolute;
+    z-index: 999;
+    padding: 120px;
+    text-align: center;
+}
+
+.shoot-game p:nth-of-type(2){
+    font-size: 16px;
+    width: 700px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.game-list{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.game-type{
+    text-align: center;
+    padding: 20px;
+}
+
+.game-type i{
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.game-type p{
+    padding:30px 0;
+}
+
+#projects{
+    align-items: center;
+    padding: 10px 0 100px 0;
+}
+
+#projects p:nth-of-type(2){
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project-image{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+#projects a{
+    margin-left: 550px;
+}
+
+#subscription{
+    padding: 0 50px 100px;
+}
+
+#subscription>p:first-child{
+    font-size: 30px;
+}
+
+#subscription>p:nth-of-type(2){
+    font-size: 16px;
+    width: 500px;
+    padding: 50px 0;
+}
+
+.subscribe{
+    background-color: #fff;
+    color: #000;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe p:nth-of-type(1){
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+
+.subscribe p:nth-of-type(2){
+    font-size: 20px;
+    width: 500px;
+    padding: 10px 0;
+}
+
+input[type="email"]{
+     height: 40px;
+     width: 250px;
+     border: none;
+     background-color: #000;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    background-color: #cc0000;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.inputs{
+    height: 45px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+#footer{
+    background-color: #fff;    
+    padding:30px;
+    color:#000;
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lorem{
+    width: 350px;
+}
+
+.lorem p:first-child{
+    font-size:25px;
+    font-weight: 300px;
+}
+
+.lorem p:nth-of-type(2), .lorem p:nth-of-type(3), .contact p:nth-of-type(1), .contact p:nth-of-type(2){
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.contact{
+    width: 350px;
+}
+
+.about{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer a{
+    color: #000;
+    padding: 10px;
+}
+
+#footer a:hover{
+    color: #cc0000;
+}
+
+.social{
+    width:300px;
+    font-size: 40px;
+}
+hr{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#footer>p{
+    text-align: center;
+    padding: 20px 0;
+}
